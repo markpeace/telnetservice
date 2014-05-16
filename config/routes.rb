@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
         root 'main#command'
         
-        get ':server/:port/:command' => "main#command"
+        get ':server/:port/:command' => "main#command", :constraints => { :server => /[^\/]+/ }
         
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

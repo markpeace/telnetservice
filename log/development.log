@@ -147,3 +147,1181 @@ Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-05-15 07:54:2
 
 
 Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-05-15 07:54:27 +0000
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:36:53 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 22ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:38:13 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 22ms (Views: 0.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:44:15 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 28ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:53:04 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10153ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:19:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:59:27 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 136ms
+
+NameError (undefined local variable or method `s' for #<MainController:0x007f5dcd848fc8>):
+  app/controllers/main_controller.rb:19:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:59:41 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 105ms
+
+NoMethodError (private method `gets' called for #<Net::Telnet:0x007f5dcd5c5378>):
+  app/controllers/main_controller.rb:19:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 18:59:47 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 104ms
+
+NoMethodError (undefined method `get' for #<Net::Telnet:0x007f5dcd8435c8>):
+  app/controllers/main_controller.rb:19:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:01:26 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 105ms
+
+NameError (undefined local variable or method `running' for #<MainController:0x007f5dcd384d48>):
+  app/controllers/main_controller.rb:17:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:02:46 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10326ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:15:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:03:39 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10337ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:15:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:07:05 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 100ms
+
+NameError (undefined local variable or method `localhost' for #<MainController:0x007f5dcbc80c78>):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.7ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:07:09 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 218ms
+
+TypeError (no implicit conversion of nil into String):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:07:20 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10114ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 19:37:03 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10149ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.0ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:06:30 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10400ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:09:14 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 199ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:09:16 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 247ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:09:17 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10363ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:14:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:11:13 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 199ms
+
+NameError (undefined local variable or method `resp' for #<MainController:0x007fd7b09d7b70>):
+  app/controllers/main_controller.rb:16:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (76.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:11:41 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 114ms
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:12:46 +0000
+Processing by MainController#command as HTML
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:13:00 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 136ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:13:02 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 109ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (30.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:13:57 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 114ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:14:07 +0000
+Processing by MainController#command as HTML
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:14:14 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 134ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:16:01 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 257ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:13:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:16:14 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 100ms
+
+NoMethodError (undefined method `put' for #<Net::Telnet:0x007f28f817e800>):
+  app/controllers/main_controller.rb:13:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:16:21 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 166ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:16:23 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 136ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:17:29 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 116ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.0ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:17:30 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 116ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.7ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:17:43 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 136ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:17:44 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 136ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:17:46 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 171ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.4ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:17:59 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 110ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:18:00 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 103ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.4ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:18:13 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 139ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.7ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:18:16 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 118ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (30.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:18:23 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 105ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:18:24 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 136ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:19:02 +0000
+Processing by MainController#command as HTML
+  Rendered main/command.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 64ms (Views: 63.9ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-05-15 20:19:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-05-15 20:19:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:03 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:03 +0000
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:19:13 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 41ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:79
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:19:24 +0000
+Processing by MainController#command as HTML
+  Rendered main/command.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 196ms (Views: 6.4ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-05-15 20:19:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-05-15 20:19:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:25 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:25 +0000
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:19:37 +0000
+Processing by MainController#command as HTML
+  Rendered main/command.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 112ms (Views: 6.8ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-05-15 20:19:38 +0000
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:19:52 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 109ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/main_controller.rb:11:in `block in command'
+  app/controllers/main_controller.rb:8:in `new'
+  app/controllers/main_controller.rb:8:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:20:06 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:20:08 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:20:43 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 108ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:20:45 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 97ms (Views: 0.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:20:46 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 96ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:21:03 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 112ms (Views: 0.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:21:04 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 96ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:21:13 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 223ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:15:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:21:53 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 236ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:15:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:21:56 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10337ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:15:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:41:26 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10118ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:16:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.7ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:41:36 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 199ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:16:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:42:46 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10363ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:43:52 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 200ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:16:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.7ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:43:54 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 233ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:16:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:44:01 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 101ms (Views: 0.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:44:02 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 102ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:44:14 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 105ms
+
+NameError (undefined local variable or method `client' for #<MainController:0x007f42c69a9150>):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.9ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:44:15 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 103ms
+
+NameError (undefined local variable or method `client' for #<MainController:0x007f42c69b4f28>):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.8ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:44:21 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10448ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.4ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:45:18 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 106ms
+
+NameError (undefined local variable or method `connection' for #<MainController:0x007f42c67f4850>):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.3ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:45:25 +0000
+Processing by MainController#command as HTML
+Completed 404 Not Found in 186ms
+
+AbstractController::ActionNotFound (The action 'Port already in use
+' could not be found for MainController):
+  app/controllers/main_controller.rb:19:in `block in command'
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:45:27 +0000
+Processing by MainController#command as HTML
+Completed 404 Not Found in 220ms
+
+AbstractController::ActionNotFound (The action 'Port already in use
+' could not be found for MainController):
+  app/controllers/main_controller.rb:19:in `block in command'
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:45:42 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 316ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:48:36 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 10001ms
+
+Net::OpenTimeout (timed out while opening a connection to the host):
+  app/controllers/main_controller.rb:10:in `new'
+  app/controllers/main_controller.rb:10:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.4ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:48:49 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 12221ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:49:10 +0000
+Processing by MainController#command as HTML
+Completed 500 Internal Server Error in 233ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-15 20:49:12 +0000
+Processing by MainController#command as HTML
+Completed 200 OK in 407ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-15 20:49:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-15 20:49:48 +0000
+
+ActionController::RoutingError (No route matches [GET] "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.8ms)
+
+
+Started GET "/command/port/command" for 172.17.42.1 at 2014-05-15 20:50:12 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"command", "port"=>"port", "command"=>"command"}
+Completed 200 OK in 340ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/port/command" for 172.17.42.1 at 2014-05-15 20:50:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/bowerfold.dlinkddns.com/port/command"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.8ms)
+
+
+Started GET "/address/port/command" for 172.17.42.1 at 2014-05-15 20:51:21 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"address", "port"=>"port", "command"=>"command"}
+Completed 200 OK in 348ms (Views: 0.2ms)
+
+
+Started GET "/address/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-15 20:51:30 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"address", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 200 OK in 307ms (Views: 0.2ms)
+
+
+Started GET "/addre.ss/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-15 20:51:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/addre.ss/200/HLT%20GET%20TEMP"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.0ms)
+
+
+Started GET "/address/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-15 20:51:41 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"address", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 200 OK in 340ms (Views: 0.2ms)
+
+
+Started GET "/address/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-16 08:07:00 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"address", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 500 Internal Server Error in 10142ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-16 08:07:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (39.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.6ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-16 08:07:35 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 200 OK in 319ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-16 08:08:33 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 200 OK in 373ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-16 08:08:49 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 200 OK in 351ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20TEMP" for 172.17.42.1 at 2014-05-16 08:08:52 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET TEMP"}
+Completed 200 OK in 321ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 08:08:56 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 352ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20SET%20VOL%2040" for 172.17.42.1 at 2014-05-16 08:09:06 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT SET VOL 40"}
+Completed 200 OK in 318ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 08:09:10 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 343ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 08:09:13 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 319ms (Views: 0.1ms)
