@@ -1325,3 +1325,33 @@ Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 20
 Processing by MainController#command as HTML
   Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
 Completed 200 OK in 319ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 08:56:20 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 469ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 08:56:32 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 322ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 08:57:15 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 322ms (Views: 0.3ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 09:38:15 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 410ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-16 09:38:21 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 322ms (Views: 0.1ms)
