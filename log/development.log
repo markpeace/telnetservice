@@ -1355,3 +1355,2843 @@ Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 20
 Processing by MainController#command as HTML
   Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
 Completed 200 OK in 322ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 14:55:57 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 500 Internal Server Error in 257ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.3ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/PING" for 172.17.42.1 at 2014-05-24 14:56:18 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"PING"}
+Completed 500 Internal Server Error in 189ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 14:58:33 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 403ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 15:01:08 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 500 Internal Server Error in 10111ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.6ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:01:33 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 500 Internal Server Error in 193ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.5ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:01:41 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 500 Internal Server Error in 290ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:02:19 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 500 Internal Server Error in 10202ms
+
+Net::ReadTimeout (timed out while waiting for more data):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 15:02:35 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 500 Internal Server Error in 232ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.4ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 15:05:30 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 307ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:05:35 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 394ms (Views: 0.3ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:05:40 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 439ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/PING" for 172.17.42.1 at 2014-05-24 15:14:01 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"PING"}
+Completed 500 Internal Server Error in 259ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.9ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/PING" for 172.17.42.1 at 2014-05-24 15:14:02 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"PING"}
+Completed 200 OK in 190ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/PING" for 172.17.42.1 at 2014-05-24 15:14:06 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"PING"}
+Completed 500 Internal Server Error in 192ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.4ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/PING" for 172.17.42.1 at 2014-05-24 15:14:16 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"PING"}
+Completed 500 Internal Server Error in 190ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:14:31 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 500 Internal Server Error in 222ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:14:35 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 191ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:14:37 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 500 Internal Server Error in 220ms
+
+Errno::ECONNRESET (Connection reset by peer):
+  app/controllers/main_controller.rb:18:in `command'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:15:46 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 406ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:16:08 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 392ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:16:13 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 400ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20PING" for 172.17.42.1 at 2014-05-24 15:16:18 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT PING"}
+Completed 200 OK in 392ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 15:16:25 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 313ms (Views: 0.2ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 15:16:30 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 326ms (Views: 0.1ms)
+
+
+Started GET "/bowerfold.dlinkddns.com/200/HLT%20GET%20VOL" for 172.17.42.1 at 2014-05-24 15:16:35 +0000
+Processing by MainController#command as HTML
+  Parameters: {"server"=>"bowerfold.dlinkddns.com", "port"=>"200", "command"=>"HLT GET VOL"}
+Completed 200 OK in 309ms (Views: 0.2ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-05-25 15:40:54 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 34ms (Views: 12.1ms)
+
+
+Started GET "/scrape/http://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:41:59 +0000
+
+ActionController::RoutingError (No route matches [GET] "/scrape/http:/www.brewtoad.com/users/39308/recipes"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.1ms)
+
+
+Started GET "/scrape/http://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:43:06 +0000
+
+SyntaxError (/home/codio/workspace/config/routes.rb:6: empty char-class: /[^]+/):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.1) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (26.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.8ms)
+
+
+Started GET "/scrape/http://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:43:13 +0000
+
+SyntaxError (/home/codio/workspace/config/routes.rb:6: premature end of char-class: /[^\]+/):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.1) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.6ms)
+
+
+Started GET "/scrape/http://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:43:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/scrape/http:/www.brewtoad.com/users/39308/recipes"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/scrape/http://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:43:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/scrape/http:/www.brewtoad.com/users/39308/recipes"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/scrape/" for 172.17.42.1 at 2014-05-25 15:43:24 +0000
+
+ActionController::RoutingError (No route matches [GET] "/scrape"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/scrape/ds" for 172.17.42.1 at 2014-05-25 15:43:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/scrape/ds"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/scrape/ds" for 172.17.42.1 at 2014-05-25 15:43:43 +0000
+
+AbstractController::ActionNotFound (The action 'scrape' could not be found for MainController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/scrape/ds" for 172.17.42.1 at 2014-05-25 15:43:46 +0000
+
+SyntaxError (/home/codio/workspace/config/routes.rb:6: premature end of char-class: /[^\]+/):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.1) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.1) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.1) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/ds" for 172.17.42.1 at 2014-05-25 15:44:46 +0000
+
+AbstractController::ActionNotFound (The action 'scrape' could not be found for MainController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/scrape/ds" for 172.17.42.1 at 2014-05-25 15:44:47 +0000
+
+AbstractController::ActionNotFound (The action 'scrape' could not be found for MainController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:45:00 +0000
+
+AbstractController::ActionNotFound (The action 'scrape' could not be found for MainController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:45:28 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.4ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:45:43 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template main/scrape, application/scrape with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/codio/workspace/app/views"
+):
+  actionview (4.1.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.1) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:45:54 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:50:28 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 22ms (Views: 0.1ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:51:20 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+TypeError (no implicit conversion of URI::HTTP into String):
+  app/controllers/main_controller.rb:35:in `open'
+  app/controllers/main_controller.rb:35:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:51:45 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://25.media.tumblr.com/avatar_279ec8ee3427_64.png):
+  app/controllers/main_controller.rb:35:in `initialize'
+  app/controllers/main_controller.rb:35:in `open'
+  app/controllers/main_controller.rb:35:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:51:46 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://25.media.tumblr.com/avatar_279ec8ee3427_64.png):
+  app/controllers/main_controller.rb:35:in `initialize'
+  app/controllers/main_controller.rb:35:in `open'
+  app/controllers/main_controller.rb:35:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:52:04 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.google.com):
+  app/controllers/main_controller.rb:34:in `initialize'
+  app/controllers/main_controller.rb:34:in `open'
+  app/controllers/main_controller.rb:34:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:52:25 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.google.com):
+  app/controllers/main_controller.rb:34:in `initialize'
+  app/controllers/main_controller.rb:34:in `open'
+  app/controllers/main_controller.rb:34:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:52:30 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 123ms (Views: 0.2ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:52:31 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 43ms (Views: 0.2ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:57:03 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 51ms (Views: 5.9ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:57:22 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:57:24 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:57:34 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/https:www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:57:45 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:57:52 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:59:37 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:59:42 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/scrape/http://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 15:59:50 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"http:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.5ms)
+
+
+Started GET "/scrape/http://www.google.com" for 172.17.42.1 at 2014-05-25 15:59:57 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"http:/www.google.com"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http:/www.google.com):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (34.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.7ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:00:04 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.google.com):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:00:23 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.google.com):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:00:24 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.google.com):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:00:30 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 48ms (Views: 2.9ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:00:55 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): https://www.brewtoad.com/users/39308/<recipes></recipes>):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:00:56 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): https://www.brewtoad.com/users/39308/<recipes></recipes>):
+  app/controllers/main_controller.rb:36:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:01:06 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 1565ms (Views: 24.7ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:01:54 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 1542ms (Views: 56.9ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:02:41 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 61750ms (Views: 3.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:03:42 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed   in 59356ms
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:04:49 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 117ms (Views: 9.1ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:04:51 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 125ms (Views: 0.6ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:06:35 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 646ms
+
+RuntimeError (redirection forbidden: http://www.ruby-lang.org/ -> https://www.ruby-lang.org/):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.5ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:06:50 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 50ms (Views: 0.9ms)
+
+
+Started GET "/images/srpr/logo9w.png" for 172.17.42.1 at 2014-05-25 16:06:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/srpr/logo9w.png"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.5ms)
+
+
+Started GET "/xjs/_/js/k=xjs.hp.en_US.shTM7ukEZmE.O/m=sb_he,pcc/rt=j/d=1/sv=1/t=zcms/rs=AItRSTMB8f6-oIeqZZtYJ-vSSmp5HYQKIw" for 172.17.42.1 at 2014-05-25 16:06:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/xjs/_/js/k=xjs.hp.en_US.shTM7ukEZmE.O/m=sb_he,pcc/rt=j/d=1/sv=1/t=zcms/rs=AItRSTMB8f6-oIeqZZtYJ-vSSmp5HYQKIw"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (37.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.7ms)
+
+
+Started GET "/images/srpr/nav_logo80.png" for 172.17.42.1 at 2014-05-25 16:06:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/srpr/nav_logo80.png"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/images/nav_logo176.png" for 172.17.42.1 at 2014-05-25 16:06:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/nav_logo176.png"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.4ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:06:56 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 53ms (Views: 0.3ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:07:26 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 60119ms
+
+OpenURI::HTTPError (504 Gateway Time-out):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.9ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:09:04 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 41ms (Views: 0.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:09:18 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 55ms (Views: 0.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:09:20 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 66ms (Views: 0.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:09:21 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 45ms (Views: 0.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:09:54 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected '='
+ = uri.encode(r)class MainController < ApplicationController
+  ^
+/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected keyword_class, expecting end-of-input
+ = uri.encode(r)class MainController < ApplicationController
+                     ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:02 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected '='
+ = uri.encode(r)class MainController < ApplicationController
+  ^
+/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected keyword_class, expecting end-of-input
+ = uri.encode(r)class MainController < ApplicationController
+                     ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:03 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected '='
+ = uri.encode(r)class MainController < ApplicationController
+  ^
+/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected keyword_class, expecting end-of-input
+ = uri.encode(r)class MainController < ApplicationController
+                     ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:21 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected '='
+ = uri.encode(r)class MainController < ApplicationController
+  ^
+/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected keyword_class, expecting end-of-input
+ = uri.encode(r)class MainController < ApplicationController
+                     ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:23 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected '='
+ = uri.encode(r)class MainController < ApplicationController
+  ^
+/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected keyword_class, expecting end-of-input
+ = uri.encode(r)class MainController < ApplicationController
+                     ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:25 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected '='
+ = uri.encode(r)class MainController < ApplicationController
+  ^
+/home/codio/workspace/app/controllers/main_controller.rb:1: syntax error, unexpected keyword_class, expecting end-of-input
+ = uri.encode(r)class MainController < ApplicationController
+                     ^):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:44 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 47ms (Views: 0.2ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:10:56 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 64ms (Views: 1.1ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:11:29 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 1723ms (Views: 8.8ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:11:59 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 200 OK in 1583ms (Views: 8.8ms)
+
+
+Started GET "/scrape/www.google.com" for 172.17.42.1 at 2014-05-25 16:19:21 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.google.com"}
+Completed 500 Internal Server Error in 60118ms
+
+OpenURI::HTTPError (504 Gateway Time-out):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.5ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:20:31 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1644ms (Views: 8.8ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:20:50 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:21:00 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.4ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:21:11 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:21:25 +0000
+
+SyntaxError (/home/codio/workspace/app/controllers/main_controller.rb:38: syntax error, unexpected ']', expecting ')'
+...wtoad.com/users/39308/recipes"]) {|f|
+...                               ^
+/home/codio/workspace/app/controllers/main_controller.rb:40: syntax error, unexpected '}', expecting keyword_end):
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.1) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:21:33 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1527ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:21:42 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1470ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:21:44 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 60111ms
+
+OpenURI::HTTPError (504 Gateway Time-out):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.9ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:22:44 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 62ms (Views: 0.2ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:22:44 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 51ms (Views: 0.2ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:22:50 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 137ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:22:52 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 46ms (Views: 0.2ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:23:01 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 48ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https:///www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:23:09 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 48ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:23:27 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 4ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.8ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:23:44 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 31ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://{params[:address]}):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:23:45 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://{params[:address]}):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:25:04 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:25:19 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.2ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:25:21 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:25:31 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 91ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https:///www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:25:37 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 207ms (Views: 0.3ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:25:51 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 57ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:19 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 43ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:20 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 136ms (Views: 0.3ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:21 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 90ms (Views: 0.3ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:24 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 65ms (Views: 0.3ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:38 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 47ms
+
+RuntimeError (redirection forbidden: http://www.brewtoad.com/users/39308/recipes -> https://www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:40 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:42 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.5ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:49 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 90ms (Views: 0.4ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:26:55 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:27:58 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.9ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:28:14 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 58ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.1ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:29:26 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `address' for #<MainController:0x007fdcc41aab78>):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes" for 172.17.42.1 at 2014-05-25 16:29:32 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.7ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:29:56 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:30:16 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:30:17 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.1ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:30:35 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:30:48 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 52ms (Views: 0.3ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:30:57 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 50ms (Views: 0.3ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:31:14 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 155ms
+
+RuntimeError (redirection forbidden: http://www.brewtoad.com/users/39308/recipes -> https://www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:40:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.2ms)
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:31:21 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed   in 48356ms
+
+
+Started GET "/scrape/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:32:16 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 28ms
+
+Errno::ENOENT (No such file or directory - www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.7ms)
+
+
+Started GET "/scrape/https://www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:32:24 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/scrape/https:///www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:32:28 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.2ms)
+
+
+Started GET "/scrape/https:////www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:32:34 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"address"=>"https:/www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - https:/www.brewtoad.com/users/39308/recipes):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/https/scrape/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:33:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/https/scrape/www.brewtoad.com/users/39308/recipes"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.5ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.6ms)
+
+
+Started GET "/https/scrape/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:33:40 +0000
+
+ActionController::RoutingError (No route matches [GET] "/https/scrape/www.brewtoad.com/users/39308/recipes"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.9ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:33:46 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 1450ms
+
+NameError (undefined local variable or method `address' for #<MainController:0x007faa58dee928>):
+  app/controllers/main_controller.rb:49:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:33:55 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1869ms (Views: 8.8ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:34:21 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 60121ms
+
+OpenURI::HTTPError (504 Gateway Time-out):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.5ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-25 16:35:23 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1415ms (Views: 36.5ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:55:07 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 2022ms (Views: 9.0ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:55:22 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1588ms (Views: 8.8ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:56:49 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1612ms (Views: 8.8ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:56:57 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1652ms (Views: 35.6ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:57:09 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1456ms (Views: 8.8ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:57:15 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 500 Internal Server Error in 60188ms
+
+OpenURI::HTTPError (504 Gateway Time-out):
+  app/controllers/main_controller.rb:38:in `scrape'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.3ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:58:15 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1880ms (Views: 8.7ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 07:59:07 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1751ms (Views: 9.3ms)
+
+
+Started GET "/scrape/http/www.google.com" for 172.17.42.1 at 2014-05-26 07:59:57 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"http", "address"=>"www.google.com"}
+Completed 200 OK in 45ms (Views: 1.1ms)
+
+
+Started GET "/scrape/http/www.google.com" for 172.17.42.1 at 2014-05-26 08:01:19 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"http", "address"=>"www.google.com"}
+Completed 200 OK in 43ms (Views: 1.1ms)
+
+
+Started GET "/scrape/https/www.brewtoad.com/users/39308/recipes/" for 172.17.42.1 at 2014-05-26 08:01:44 +0000
+Processing by MainController#scrape as HTML
+  Parameters: {"protocol"=>"https", "address"=>"www.brewtoad.com/users/39308/recipes"}
+Completed 200 OK in 1837ms (Views: 8.8ms)

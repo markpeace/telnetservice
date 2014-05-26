@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
   get 'main/command'
-
-
-        root 'main#command'
         
-        get ':server/:port/:command' => "main#command", :constraints => { :server => /[^\/]+/ }
+        get 'telnet/:server/:port/:command' => "main#telnet", :constraints => { :server => /[^\/]+/ }
+        
+        get 'scrape/:protocol/:address/' => "main#scrape", :constraints => {:address => /.*/}
         
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
