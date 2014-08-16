@@ -61,7 +61,7 @@ class MainController < ApplicationController
                 APNS.pem  = 'certificates/1/production.pem'
                 # this is the file you just created
 
-                APNS.pass = 'mmmbeer00'
+                APNS.pass = 'letmein'
                 # Just in case your pem need a password
 
                 device_token = 'bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36'

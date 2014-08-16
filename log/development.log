@@ -4557,3 +4557,52 @@ Completed 200 OK in 657ms (Views: 0.1ms)
 Started GET "/pushnotify" for 172.17.42.1 at 2014-08-15 21:27:38 +0000
 Processing by MainController#pushnotify as HTML
 Completed 200 OK in 726ms (Views: 0.1ms)
+
+
+Started GET "/" for 172.17.42.1 at 2014-08-16 17:24:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (8.9ms)
+Completed 200 OK in 161ms (Views: 85.4ms)
+
+
+Started GET "/pushnotify" for 172.17.42.1 at 2014-08-16 17:24:50 +0000
+Processing by MainController#pushnotify as HTML
+Completed 500 Internal Server Error in 116ms
+
+NoMethodError (undefined method `close' for nil:NilClass):
+  app/controllers/main_controller.rb:68:in `pushnotify'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (45.7ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (89.4ms)
+
+
+Started GET "/pushnotify" for 172.17.42.1 at 2014-08-16 17:25:22 +0000
+Processing by MainController#pushnotify as HTML
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError (undefined method `close' for nil:NilClass):
+  app/controllers/main_controller.rb:68:in `pushnotify'
+
+
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/codio/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.1ms)
+
+
+Started GET "/pushnotify" for 172.17.42.1 at 2014-08-16 19:13:22 +0000
+Processing by MainController#pushnotify as HTML
+Completed 200 OK in 379ms (Views: 0.2ms)
+
+
+Started GET "/pushnotify" for 172.17.42.1 at 2014-08-16 19:13:31 +0000
+Processing by MainController#pushnotify as HTML
+Completed 200 OK in 287ms (Views: 0.1ms)
+
+
+Started GET "/pushnotify" for 172.17.42.1 at 2014-08-16 19:13:44 +0000
+Processing by MainController#pushnotify as HTML
+Completed 200 OK in 355ms (Views: 0.1ms)
