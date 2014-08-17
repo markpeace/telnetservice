@@ -21,7 +21,7 @@ var options = {
         errorCallback: callback,
         cert: 'productionCert.pem',                 
         key:  'key.pem',                 
-        passphrase: 'mmmbeer00',                 
+        passphrase: 'letmein',                 
         port: 2195,                       
         enhanced: true,                   
         cacheLength: 100                  
