@@ -60,7 +60,7 @@ class MainController < ApplicationController
 
                 device_token = 'bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36'
 
-                data['badge'] ||= 10	
+                data['badge'] ||= 1
                 data['sound'] ||= 'default'	
                 data['payload'] ||= {}	
 

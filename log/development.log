@@ -7854,3 +7854,31 @@ Processing by MainController#pushnotify as HTML
   Parameters: {"data"=>"{\"tokens\":[\"bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36\"],\"applicationIndex\":\"1\",\"alert\":\"You have received a message from Mark Peace (host of 'Stupid Questions Amnesty' pop-up)\",\"payload\":{\"test\":\"mark peace\"}}"}
 Can't verify CSRF token authenticity
 Completed 200 OK in 179ms
+
+
+Started POST "/pushnotify" for 172.17.42.1 at 2014-08-17 10:33:31 +0000
+Processing by MainController#pushnotify as HTML
+  Parameters: {"data"=>"{\"tokens\":[\"bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36\"],\"applicationIndex\":\"1\",\"alert\":\"You have received a message from Mark Peace (host of 'Stupid Questions Amnesty' pop-up)\",\"payload\":{\"test\":\"mark peace\"}}"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 116ms
+
+
+Started POST "/pushnotify" for 172.17.42.1 at 2014-08-17 10:33:57 +0000
+Processing by MainController#pushnotify as HTML
+  Parameters: {"data"=>"{\"tokens\":[\"bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36\"],\"applicationIndex\":\"1\",\"alert\":\"You have received a message from Mark Peace (host of 'Stupid Questions Amnesty' pop-up)\",\"badge\":\"10\",\"payload\":{\"test\":\"mark peace\"}}"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 106ms
+
+
+Started POST "/pushnotify" for 172.17.42.1 at 2014-08-17 10:34:18 +0000
+Processing by MainController#pushnotify as HTML
+  Parameters: {"data"=>"{\"tokens\":[\"bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36\"],\"applicationIndex\":\"1\",\"alert\":\"You have received a message from Mark Peace (host of 'Stupid Questions Amnesty' pop-up)\",\"badge\":\"10\",\"payload\":{\"test\":\"mark peace\"}}"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 169ms
+
+
+Started POST "/pushnotify" for 172.17.42.1 at 2014-08-17 10:34:27 +0000
+Processing by MainController#pushnotify as HTML
+  Parameters: {"data"=>"{\"tokens\":[\"bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36\"],\"applicationIndex\":\"1\",\"alert\":\"You have received a message from Mark Peace (host of 'Stupid Questions Amnesty' pop-up)\",\"badge\":10,\"payload\":{\"test\":\"mark peace\"}}"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 264ms
