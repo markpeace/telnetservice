@@ -49,38 +49,55 @@ class MainController < ApplicationController
                 render :json => { result: r}                
         end       
 
-        def pushnotify
+        def pushnotify               
 
-                data=JSON.parse(params[:data])                                  
+                data=JSON.parse(params[:data])        
 
-                APNS.host = 'gateway.push.apple.com' 
-                APNS.port = 2195 
-                APNS.pem  = "certificates/" + data['applicationIndex']+"/production.pem"
-                APNS.pass = ENV['PUSH_PASSWORD']
+                if data['platform']=='i'
 
-                device_token = 'bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36'
+                        APNS.host = 'gateway.push.apple.com' 
+                        APNS.port = 2195 
+                        APNS.pem  = "certificates/" + data['applicationIndex']+"/production.pem"
+                        APNS.pass = ENV['PUSH_PASSWORD']
 
-                data['badge'] ||= 1
-                data['sound'] ||= 'default'	
-                data['payload'] ||= {}	
+                        device_token = 'bee87b3ad28ae90e42d24600c19b6169462fd3f683119f2224cf104dd4bcfd36'
 
-                messages=[]                
-                data['tokens'].each do |token|
-                        messages.push(APNS::Notification.new(token, :alert => data['alert'], :badge => data['badge'], :sound => data['sound'], :other => data['payload']))
-                end                             
+                        data['badge'] ||= 1
+                        data['sound'] ||= 'default'	
+                        data['payload'] ||= {}	
 
-                APNS.send_notifications(messages)                
+                        messages=[]                
+                        data['tokens'].each do |token|
+                                messages.push(APNS::Notification.new(token, :alert => data['alert'], :badge => data['badge'], :sound => data['sound'], :other => data['payload']))
+                        end                             
 
-                headers['Access-Control-Allow-Origin'] = '*'
-                headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
-                headers['Access-Control-Allow-Headers'] = %w{Origin Accept Content-Type X-Requested-With X-CSRF-Token}.join(',')
-                headers['Access-Control-Max-Age'] = "1728000"        
+                        APNS.send_notifications(messages)                
 
-                respond_to do |format|
-                        format.html { head :ok}
-                        format.xml  { head :ok }
-                        format.json { head :ok }
-                end                
+                        headers['Access-Control-Allow-Origin'] = '*'
+                        headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
+                        headers['Access-Control-Allow-Headers'] = %w{Origin Accept Content-Type X-Requested-With X-CSRF-Token}.join(',')
+                        headers['Access-Control-Max-Age'] = "1728000"        
+
+
+                else
+                        GCM.host = 'https://android.googleapis.com/gcm/send'
+                        GCM.format = :json
+                        GCM.key = "AIzaSyCvptm_nmHEf0D2FtaEBWzhw8Ng4U4mikA"
+
+                        data['tokens'].each do |token|
+                                data = {:message => data['alert'], :payload=>data['payload'] }
+                                response=GCM.send_notification( [token], data )
+                        end
+
+                        respond_to do |format|
+                                format.html { head :ok}
+                                format.xml  { head :ok }
+                                format.json { head :ok }
+                        end   
+
+                        return
+
+                end
         end       
 
 end
