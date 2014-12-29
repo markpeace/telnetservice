@@ -15386,3 +15386,598 @@ Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 17:
 
 
 Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 17:38:10 +0000
+
+
+Started GET "/upload2arduino" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+Processing by Upload2arduinoController#upload as HTML
+  Rendered upload2arduino/upload.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 79ms (Views: 61.4ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 17:41:30 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 17:41:47 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa86cff88 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-180wvwf>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 62014ms (Views: 5.6ms)
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 17:43:54 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa88ef958 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-18j6j17>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61987ms (Views: 6.0ms)
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 17:49:29 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa6be11b8 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-gtxwiu>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 66969ms (Views: 6.2ms)
+
+
+Started GET "/upload2arduino" for 172.17.42.1 at 2014-12-29 17:50:36 +0000
+Processing by Upload2arduinoController#upload as HTML
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.7ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 17:50:36 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 17:50:36 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 17:50:37 +0000
+
+
+Started GET "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+Processing by Upload2arduinoController#upload as HTML
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:38:56 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:39:01 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa6bd95d0 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-y8ts0o>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1934ms (Views: 5.5ms)
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:39:03 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:41:18 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa89b7430 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-ugfd5v>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1770ms (Views: 5.9ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:20 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:41:50 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa61ec810 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-uwh4g6>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1698ms (Views: 5.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:41:52 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:42:12 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa8967160 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-1p6sen4>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1779ms (Views: 6.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:15 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:42:36 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa89decb0 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-1siq2r5>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1777ms (Views: 5.8ms)
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:42:38 +0000
+
+
+Started GET "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:51:45 +0000
+Processing by Upload2arduinoController#upload as HTML
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:46 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:51:53 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa89d6da8 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-7xrtv>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1677ms (Views: 5.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:51:55 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:56:42 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa8a426c0 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-5hv03z>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1676ms (Views: 8.3ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:56:44 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:56:45 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 18:59:28 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6fa859fd20 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-1396-1fbsvg7>, @original_filename="project (1).hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project (1).hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1693ms (Views: 5.6ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 18:59:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 18:59:31 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 19:25:14 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f77ac145ae8 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-415-12oid9k>, @original_filename="project (1).hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project (1).hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1905ms (Views: 58.9ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 19:25:17 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 19:26:16 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f77adf11f40 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-415-1gh2b1>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1822ms (Views: 9.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 19:26:18 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 19:26:19 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 19:30:57 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f77ae497208 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-415-1fv1qab>, @original_filename="project (1).hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project (1).hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2875ms (Views: 5.8ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 19:31:00 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 19:31:01 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 19:59:25 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f77ae1e5910 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-415-12n8zl>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1864ms (Views: 6.2ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 19:59:27 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 19:59:28 +0000
+
+
+Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-29 20:01:20 +0000
+Processing by Upload2arduinoController#doupload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f77ae57df50 @tempfile=#<Tempfile:/tmp/RackMultipart20141229-415-1yn7ndm>, @original_filename="project (2).hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project (2).hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+  Rendered upload2arduino/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2054ms (Views: 5.8ms)
+
+
+Started GET "/assets/main.css?body=1" for 172.17.42.1 at 2014-12-29 20:01:22 +0000
+
+
+Started GET "/assets/main.js?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/upload2arduino.js?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/upload2arduino.css?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 172.17.42.1 at 2014-12-29 20:01:23 +0000
