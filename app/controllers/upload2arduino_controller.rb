@@ -18,7 +18,8 @@ class Upload2arduinoController < ApplicationController
 
                 Net::SSH.start('bowerfold.dlinkddns.com', 'root', :port=>150, :password => "mmmbeer00") do |ssh|
                         ssh.exec "touch mark.test"
-                        ssh.exec!("wget http://ordeal-dromic.codio.io:3000/sketch.hex")
+                        #ssh.exec!("wget http://ordeal-dromic.codio.io:3000/sketch.hex")
+                        ssh.exec!("wget http://mptoolbox.herokuapp.com/sketch.hex")
                 end
                 
                 render :upload
