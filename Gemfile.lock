@@ -57,6 +57,7 @@ GEM
     minitest (5.3.3)
     multi_json (1.10.0)
     multi_xml (0.5.5)
+    net-ssh (2.9.1)
     polyglot (0.3.4)
     pushmeup (0.3.0)
       httparty
@@ -122,6 +123,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  net-ssh
   pushmeup
   rails (= 4.1.1)
   sass-rails (~> 4.0.3)
