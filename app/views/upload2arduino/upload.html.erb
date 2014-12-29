@@ -1,0 +1,13 @@
+<html>
+        <head>
+                <title></title>
+        </head>
+        <body>
+                <p><%=@m %></p>
+                
+                <h1>Arduino Uploader</h1>
+                <%= form_tag({action: :upload}, multipart: true) do %>
+                <%= file_field_tag 'sketch' %>
+                <%= submit_tag :upload %>
+                <% end %>
+                </html>
