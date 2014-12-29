@@ -3,7 +3,7 @@
                 <title></title>
         </head>
         <body>
-                <p><%=@m %></p>
+                <p><%=debug @m %></p>
                 
                 <h1>Arduino Uploader</h1>
                 <%= form_tag({action: :upload}, multipart: true) do %>
