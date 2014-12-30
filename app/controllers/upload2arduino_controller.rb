@@ -18,7 +18,7 @@ class Upload2arduinoController < ApplicationController
 
                 Net::SSH.start('bowerfold.dlinkddns.com', 'root', :port=>150, :password => "mmmbeer00") do |ssh|
                         #@m=ssh.exec!("wget http://www.google.com")
-                        @m=ssh.exec!("wget http://ordeal-dromic.codio.io:8080/sketch.hex") 
+                        @m=ssh.exec!("wget http://mptoolbox.herokuapp.com/sketch.hex") 
                         #ssh.exec "avrdude -c arduino -b 57600 -P /dev/ttyUSB0 -p atmega328p -vv -U flash:w:sketch.hex"
                 end
                 

@@ -16516,3 +16516,9 @@ Completed 200 OK in 5658ms (Views: 5.7ms)
 Started POST "/upload2arduino" for 172.17.42.1 at 2014-12-30 10:10:38 +0000
 Processing by Upload2arduinoController#doupload as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe+mOYeh+BzHjfDShADJq21k7Zdr+xgddXBWFNHFRHY=", "sketch"=>#<ActionDispatch::Http::UploadedFile:0x007f6ad9de6f70 @tempfile=#<Tempfile:/tmp/RackMultipart20141230-1213-a3dz24>, @original_filename="project.hex", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"sketch\"; filename=\"project.hex\"\r\nContent-Type: application/octet-stream\r\n">, "commit"=>"upload"}
+
+
+Started GET "/upload2arduino" for 172.17.42.1 at 2014-12-30 10:13:21 +0000
+Processing by Upload2arduinoController#upload as HTML
+  Rendered upload2arduino/upload.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 76ms (Views: 59.6ms)
