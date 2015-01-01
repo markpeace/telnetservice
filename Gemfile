@@ -27,5 +27,6 @@ gem 'spring',        group: :development
 gem 'pushmeup'
 
 gem 'net-ssh'
+gem 'net-sftp'
 
 gem 'unicorn'

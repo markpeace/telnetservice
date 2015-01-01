@@ -3,11 +3,43 @@
                 <title></title>
         </head>
         <body>
-                <p><%=debug @m %></p>
+               
+                <%=@m %>
                 
                 <h1>Arduino Uploader</h1>
-                <%= form_tag({action: :upload}, multipart: true) do %>
-                <%= file_field_tag 'sketch' %>
-                <%= submit_tag :upload %>
+                <div id="myform">            
+                        <%= form_tag({action: :upload}, multipart: true) do %>
+                        <%= file_field_tag 'sketch' %>
+                        <%= submit_tag :upload %>
+                        <% end %>
+                </div>                
+
+                <% if @rebooting %>
+                Rebooting: <span id="countdown"></span>
+                <script language="javascript">
+
+                        window.countdown = 50
+                        document.getElementById("myform").style.visibility="hidden";
+
+                        window.countdownTimer = setInterval(function(){ 
+                                window.countdown--;
+                                console.log(window.countdown)
+
+                                document.getElementById("countdown").innerHTML=window.countdown
+                                
+                                if(window.countdown==0) {                     
+                                        document.getElementById("myform").style.visibility="visible";
+                                        clearInterval(window.countdownTimer);                                        
+                                }
+
+                        }, 1000);
+
+
+                </script>
+                <% else %>
+                <a href="/rebootarduino">Reboot!</a>
                 <% end %>
-                </html>
+
+
+        </body>
+</html>
