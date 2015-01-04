@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+        get 'wake' => "wake#index"
+
         get 'main/command'
 
         get 'telnet/:server/:port/:command' => "main#telnet", :constraints => { :server => /[^\/]+/ }
