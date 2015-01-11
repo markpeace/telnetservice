@@ -18,9 +18,6 @@ class Upload2arduinoController < ApplicationController
 
         def doupload
 
-                #@m=params[:sketch].read
-                #@m=@m.split(" ")
-
                 File.open(Rails.root.join('public', 'sketch.hex'), 'wb') do |file|
                         file.write(params[:sketch].read)                        
                 end
@@ -31,13 +28,18 @@ class Upload2arduinoController < ApplicationController
                 require 'net/ssh'
                 require 'net/sftp'
 
-                Net::SSH.start('bowerfold.dlinkddns.com', 'root', :port=>150, :password => "", :timeout=>120) do |ssh|   
-                        #ssh.exec "touch m && rm * &"
-                        #@m= && avrdude -q -c arduino -b 57600 -P /dev/ttyUSB0 -p atmega328p -U flash:w:sketch.hex &"
-                        ssh.exec!("wget --quiet "+request.original_url.sub('upload2arduino','sketch.hex') + " &")
-                        sleep(5)
-                        ssh.exec!("avrdude -q -c arduino -b 57600 -P /dev/ttyUSB0 -p atmega328p -U flash:w:sketch.hex && rm * &")
-                end
+                @return = "Execute this command on the router: " + "wget "+request.original_url.sub('upload2arduino','sketch.hex') + " & avrdude -q -c arduino -b 57600 -P /dev/ttyUSB0 -p atmega328p -U flash:w:sketch.hex && rm *"
+                
+                #Net::SSH.start('bowerfold.dlinkddns.com', 'root', :port=>150, :password => "", :timeout=>120) do |ssh|   
+                #        ssh.exec "touch m && rm * &"
+                        
+                #        @m = "wget "+request.original_url.sub('upload2arduino','sketch.hex')
+                #        @return = @return + @m
+                        
+                        # + " & sleep 5 & avrdude -q -c arduino -b 57600 -P /dev/ttyUSB0 -p atmega328p -U flash:w:sketch.hex && rm *"
+                                                
+                #        @return = @return + ssh.exec!(@m)
+                #end
 
 
                 render :upload
